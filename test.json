@@ -1,0 +1,14 @@
+[
+    {
+        "modelId": "meta.llama3-8b-instruct-v1:0",
+        "contentType": "application/json",
+        "accept": "application/json",
+        "body": "{\"prompt\":\"this is where you place your input text\",\"max_gen_len\":512,\"temperature\":0.5,\"top_p\":0.9}"
+    },
+    {
+        "modelId": "mistral.mistral-large-2402-v1:0",
+        "contentType": "application/json",
+        "accept": "application/json",
+        "body": "{\"prompt\":\"<s>[INST] this is where you place your input text [/INST]\", \"max_tokens\":200, \"temperature\":0.5, \"top_p\":0.9, \"top_k\":50}"
+    }
+]
