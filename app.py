@@ -128,5 +128,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-##   stop the IAM users in AWS -----------------------------madddhuuuuuu note
